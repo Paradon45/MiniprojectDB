@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+	margin-top: 30px;
+}
+.left-box {
+	color: rgba(255, 255, 255, 0.833);
+	background: transparent;
+	backdrop-filter: blur(15px);
+	float: left;
+	width: 10%;
+	padding: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.5); /* เพิ่มกรอบสีขาวโปร่งบาง */
+	border-radius: 10px; /* เพิ่มขอบมนเม็ดกลม */
+  }
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1E1E1E;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+section{   
+	 
+    background: url('Artboard_1.jpg')no-repeat;
+	min-height: 91.5vh;
+    width: 100%;
+	background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1E1E1E;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    background-image: url(https://3.bp.blogspot.com/-NqMu4VqWs0k/WVhvsA8a9ZI/AAAAAAAAAAw/aAeA1xyE6QoQjjgL6MOCk1sBy7FSpLi_wCLcBGAs/s1600/nik_4257-2.jpg);
+    color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    margin-top: -20px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: 1000;
+    font-size: 100px;
+}
+
+.banner p{
+    font-family: 'Mitr', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin-bottom: 35px;
+}
+
+.banner a{
+    font-family: 'Mitr', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    /* color: wheat; */
+    color: white    ;
+    background-color: #1E1E1E;
+    /* -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px); */
+    border: solid 1px white ;
+    background: linear-gradient(#1E1E1E 100%);
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+}
+
+.banner-info{
+    text-align: center;
+}
+
+.info {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.info div{
+    padding: 20px;
+}
+
+.container{
+    background: url('Artboard_1.jpg');
+    color: #fff;
+}
+
+.mean {
+    font-family: 'Mitr', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+.mean div  p{
+     margin-left: 300px; 
+}
+
+.mean div  h3{
+    margin-left: 300px; 
+    font-size: 25px;
+}
+
+.mean img{
+    width:  50%;
+    border-radius: 20px;
+}
+
+.detail {
+    font-family: 'Mitr', sans-serif;
+    margin-top: -70px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+.detail div  p{
+     margin-left: 300px; 
+}
+
+.detail div  h3{
+    margin-left: 300px; 
+    font-size: 25px;
+}
+
+.footer{
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
+}
