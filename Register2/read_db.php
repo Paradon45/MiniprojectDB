@@ -16,7 +16,7 @@ include 'server.php';
 
     if($result){
         echo "Success!<BR>";
-        header('Location: read.php?id=' . $_POST['id']);
+        header('Location: read_no_edit.php?id=' . $_POST['id']);
     } else {
         echo 'Erro !!';
     }
