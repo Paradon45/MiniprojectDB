@@ -112,7 +112,7 @@
 				  <div class="form-group">
 				    <label class="col-sm-2 control-label">comment</label>
 				   <div class="col-sm-10">
-				       <textarea class="form-control" rows="3" name="comment"></textarea>
+				       <textarea class="form-control" rows="3" name="comment" required></textarea>
 				    </div>
 				  </div>
 				  
