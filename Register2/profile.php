@@ -36,7 +36,7 @@ $commentResult = $conn->query($commentSql);
 	<section>
  <nav>
         <div class="logo">
-            <a href="#">Thailand-community-No.1</a>
+            <a href="post.php">Thailand-community-No.1</a>
         </div>
 
          <ul class="menu">
